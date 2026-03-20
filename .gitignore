@@ -1,0 +1,89 @@
+# ==============================
+# 🔹 Python Backend
+# ==============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Logs
+*.log
+
+# ==============================
+# 🔹 Data Files (Optional)
+# ==============================
+# Uncomment if large datasets
+# data/*.csv
+# data/*.xlsx
+# data/*.json
+
+# But keep configs if needed
+!data/courses.json
+!data/gap_report.json
+
+# ==============================
+# 🔹 Model Files
+# ==============================
+*.pt
+*.pth
+*.h5
+*.ckpt
+models/
+checkpoints/
+
+# ==============================
+# 🔹 Node / Frontend
+# ==============================
+node_modules/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*
+
+# ==============================
+# 🔹 VS Code / IDE
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# 🔹 OS Files
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# 🔹 Testing / Temp
+# ==============================
+*.tmp
+*.temp
+*.swp
+
+# ==============================
+# 🔹 Coverage / Metrics
+# ==============================
+coverage/
+.metrics/
+metrics/
+
+# ==============================
+# 🔹 Docker
+# ==============================
+*.tar
+*.gz
+
+# ==============================
+# 🔹 Misc
+# ==============================
+*.bak
+*.old

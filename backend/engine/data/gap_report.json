@@ -1,0 +1,179 @@
+{
+  "gaps": [
+    {
+      "skill": "Hugging Face",
+      "score": 0.2259,
+      "source": "JD"
+    },
+    {
+      "skill": "Tecton Nice",
+      "score": 0.2516,
+      "source": "JD"
+    },
+    {
+      "skill": "Weaviate Education",
+      "score": 0.259,
+      "source": "JD"
+    },
+    {
+      "skill": "CI/CD",
+      "score": 0.2702,
+      "source": "JD"
+    },
+    {
+      "skill": "Weaviate",
+      "score": 0.277,
+      "source": "JD"
+    },
+    {
+      "skill": "Airflow",
+      "score": 0.2797,
+      "source": "JD"
+    },
+    {
+      "skill": "Feast",
+      "score": 0.2918,
+      "source": "JD"
+    },
+    {
+      "skill": "feature store",
+      "score": 0.2942,
+      "source": "JD"
+    },
+    {
+      "skill": "MLflow",
+      "score": 0.3061,
+      "source": "JD"
+    },
+    {
+      "skill": "transformers",
+      "score": 0.309,
+      "source": "JD"
+    },
+    {
+      "skill": "Snowflake",
+      "score": 0.3138,
+      "source": "JD"
+    },
+    {
+      "skill": "Dask",
+      "score": 0.3209,
+      "source": "JD"
+    },
+    {
+      "skill": "NLP",
+      "score": 0.3232,
+      "source": "JD"
+    },
+    {
+      "skill": "Kafka",
+      "score": 0.3251,
+      "source": "JD"
+    },
+    {
+      "skill": "Engineer Company",
+      "score": 0.3283,
+      "source": "JD"
+    }
+  ],
+  "recommendations": [
+    {
+      "gap_skill": "Hugging Face",
+      "course_id": "c02",
+      "course_title": "Natural Language Processing with Transformers",
+      "match_score": 1.0
+    },
+    {
+      "gap_skill": "CI/CD",
+      "course_id": "c03",
+      "course_title": "MLOps: From Experiment to Production",
+      "match_score": 1.0
+    },
+    {
+      "gap_skill": "Weaviate",
+      "course_id": "c09",
+      "course_title": "Vector Databases and Semantic Search",
+      "match_score": 1.0
+    },
+    {
+      "gap_skill": "Airflow",
+      "course_id": "c08",
+      "course_title": "Apache Airflow: Pipeline Orchestration",
+      "match_score": 1.0
+    },
+    {
+      "gap_skill": "Feast",
+      "course_id": "c10",
+      "course_title": "Feature Stores for Machine Learning",
+      "match_score": 1.0
+    },
+    {
+      "gap_skill": "MLflow",
+      "course_id": "c03",
+      "course_title": "MLOps: From Experiment to Production",
+      "match_score": 1.0
+    },
+    {
+      "gap_skill": "transformers",
+      "course_id": "c02",
+      "course_title": "Natural Language Processing with Transformers",
+      "match_score": 1.0
+    },
+    {
+      "gap_skill": "Snowflake",
+      "course_id": "c06",
+      "course_title": "Snowflake and BigQuery for Data Engineers",
+      "match_score": 1.0
+    },
+    {
+      "gap_skill": "Dask",
+      "course_id": "c07",
+      "course_title": "Apache Spark for Large-Scale ML",
+      "match_score": 1.0
+    },
+    {
+      "gap_skill": "NLP",
+      "course_id": "c02",
+      "course_title": "Natural Language Processing with Transformers",
+      "match_score": 1.0
+    },
+    {
+      "gap_skill": "Kafka",
+      "course_id": "c05",
+      "course_title": "Real-Time Data Pipelines with Kafka",
+      "match_score": 1.0
+    },
+    {
+      "gap_skill": "feature store",
+      "course_id": "c10",
+      "course_title": "Feature Stores for Machine Learning",
+      "match_score": 0.7223
+    },
+    {
+      "gap_skill": "Tecton Nice",
+      "course_id": "c10",
+      "course_title": "Feature Stores for Machine Learning",
+      "match_score": 0.4544
+    },
+    {
+      "gap_skill": "Weaviate Education",
+      "course_id": "c09",
+      "course_title": "Vector Databases and Semantic Search",
+      "match_score": 0.4438
+    },
+    {
+      "gap_skill": "Engineer Company",
+      "course_id": "c12",
+      "course_title": "DevOps and CI/CD for Engineers",
+      "match_score": 0.3785
+    }
+  ],
+  "training_hints": {
+    "class_weights": {
+      "SKILL": 0.8667,
+      "EXPERIENCE": 1.0667,
+      "EDUCATION": 1.0667,
+      "O": 1.0
+    }
+  }
+}
